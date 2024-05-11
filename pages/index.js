@@ -9,11 +9,11 @@ export default function Page() {
             <Banner />
 
             <section className="bg-white flex flex-col py-20">
-                <h2 className="mb-12 text-5xl font-bold tracking-tight text-blue-secondary md:text-4xl xl:text-4xl mx-auto">
+                <h2 className="mb-12 text-2xl font-bold tracking-tight text-blue-secondary sm:text-3xl xl:text-4xl mx-auto">
                     En esta parte iría el video
                 </h2>
 
-                <div className="container mx-auto w-1/2">
+                <div className="container mx-auto w-11/12 lg:w-1/2">
                     <div
                         className="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-lg shadow-lg"
                         style={{paddingTop: "56.25%"}}>
@@ -26,6 +26,7 @@ export default function Page() {
                 </div>
 
             </section>
+
 
             <Footer/>
         </>
