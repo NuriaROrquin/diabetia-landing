@@ -21,6 +21,9 @@ export const Navigation = () => {
                         <li className="mr-3">
                             <Link className="inline-block text-white no-underline hover:font-bold transition-all ease-in-out py-2 px-4" href="#">Sumate</Link>
                         </li>
+                        <li className="mr-3">
+                            <Link className="inline-block text-white no-underline hover:font-bold transition-all ease-in-out py-2 px-4" href="#">Inicia sesión</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
