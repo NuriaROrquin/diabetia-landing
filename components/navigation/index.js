@@ -16,13 +16,19 @@ export const Navigation = () => {
                     id="nav-content">
                     <ul className="list-reset lg:flex justify-end flex-1 items-center">
                         <li className="mr-3">
-                            <Link className="inline-block text-white no-underline hover:font-bold transition-all ease-in-out py-2 px-4" href="#">Conocenos</Link>
+                            <Link
+                                className="inline-block text-white no-underline hover:font-bold transition-all ease-in-out py-2 px-4"
+                                href="#">Conocenos</Link>
                         </li>
                         <li className="mr-3">
-                            <Link className="inline-block text-white no-underline hover:font-bold transition-all ease-in-out py-2 px-4" href="#">Sumate</Link>
+                            <Link
+                                className="inline-block text-white no-underline hover:font-bold transition-all ease-in-out py-2 px-4"
+                                href="#">Sumate</Link>
                         </li>
                         <li className="mr-3">
-                            <Link className="inline-block text-white no-underline hover:font-bold transition-all ease-in-out py-2 px-4" href="#">Inicia sesión</Link>
+                            <a className="inline-block text-white no-underline hover:font-bold transition-all ease-in-out py-2 px-4" target="_blank" href="http://localhost:3000" rel="noopener noreferrer">
+                                Iniciar sesión
+                            </a>
                         </li>
                     </ul>
                 </div>
