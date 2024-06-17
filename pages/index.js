@@ -3,7 +3,7 @@ import {Navigation} from "../components/navigation";
 import {Banner} from "../components/banner";
 import {Input} from "../components/input";
 import {EmailOutlined, Person2Outlined} from "@mui/icons-material";
-import {ButtonBlue, ButtonOrange} from "../components/button";
+import {ButtonOrange} from "../components/button";
 
 export default function Page() {
     return (
@@ -30,7 +30,7 @@ export default function Page() {
 
             </section>
 
-            <section className="flex flex-col pt-20 bg-blue-primary container mx-auto">
+            <section className="flex flex-col pt-20 bg-blue-primary container mx-auto" id="sumate">
                 <h2 className="mb-12 text-2xl font-bold tracking-tight text-white sm:text-3xl xl:text-4xl mx-auto">
                     Sumate
                 </h2>
