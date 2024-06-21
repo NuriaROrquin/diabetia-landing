@@ -11,12 +11,16 @@ export default function Page() {
             <Navigation />
             <Banner />
 
-            <section className="bg-white flex flex-col py-20">
+            <section className="bg-white flex flex-col py-20" id="conocenos">
                 <h2 className="mb-12 text-2xl font-bold tracking-tight text-blue-secondary sm:text-3xl xl:text-4xl mx-auto">
                     Conocenos
                 </h2>
 
-                <div className="container mx-auto w-11/12 lg:w-1/2">
+                <h5 className="mb-2 tracking-tight text-blue-primary sm:text-xl px-8 xl:text-lg mx-auto">
+                    En un breve video te mostramos todo lo que podés realizar utilizando DiabetIA en tu día a día.
+                </h5>
+
+                <div className="container mx-auto w-11/12 lg:w-1/2 pb-20">
                     <div
                         className="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-lg shadow-lg"
                         style={{paddingTop: "56.25%"}}>
@@ -32,25 +36,31 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col pt-20 bg-blue-primary container mx-auto" id="sumate">
-                <h2 className="mb-12 text-2xl font-bold tracking-tight text-white sm:text-3xl xl:text-4xl mx-auto">
-                    Sumate
+                <h2 className="mb-6 text-2xl font-bold tracking-tight text-white sm:text-3xl xl:text-4xl mx-auto">
+                Sumate
                 </h2>
+                <h5 className="mb-12  tracking-tight text-white sm:text-xl px-8 xl:text-lg mx-auto">
+                    ¿Te interesa probar la aplicación? ¿Considerás que puede ser útil para tu día a día?
+                </h5>
                 <div className="flex justify-center">
-                    <div className="w-1/4">
+                    <div className="lg:1/2 pl-8 2xl:w-1/4">
                         <div className="w-full text-white mb-4">
-                            Dejanos tu email y nos contactamos con vos!
+                            Dejanos tu email y nos contactaremos con vos!
                         </div>
 
                         <div className="text-gray-600">
-                            <Input id="name" type="name" placeholder="Ingresá tu nombre" icon={<Person2Outlined />} width="w-full" />
+                            <Input id="name" type="name" placeholder="Ingresá tu nombre" icon={<Person2Outlined/>}
+                                   width="w-full"/>
                         </div>
                         <div className="container mx-auto text-gray-600">
-                            <Input id="email" type="email" placeholder="Ingresá tu email" icon={<EmailOutlined />} width="w-full" />
+                            <Input id="email" type="email" placeholder="Ingresá tu email" icon={<EmailOutlined/>}
+                                   width="w-full"/>
                         </div>
-                        <ButtonOrange label="Enviar" width="w-full" />
+                        <ButtonOrange label="Quiero que me contacten" width="w-full font-bold"/>
                     </div>
                     <div className="h-auto">
-                        <img src="/senalando.webp" className="" alt="persona midiendose con glucómetro" />
+                        <img src="/senalando.webp" className="opacity-30 lg:opacity-100 lg:h-400 2xl:h-auto"
+                             alt="una mujer señalando el formulario de contacto"/>
                     </div>
                 </div>
 

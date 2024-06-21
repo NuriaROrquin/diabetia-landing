@@ -16,7 +16,7 @@ export const ButtonOrange = ({label, width, onClick}) => {
         <div className={`flex justify-center ${width}`}>
             <button
                 onClick={onClick}
-                className="bg-orange-focus hover:bg-orange-primary transition-all text-white py-2 px-8 rounded-full w-full"
+                className="bg-orange-primary hover:bg-orange-focus transition-all text-white py-2 px-8 rounded-lg w-full"
             >
                 {label}
             </button>
