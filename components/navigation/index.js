@@ -39,7 +39,13 @@ export const Navigation = () => {
                                 href="#sumate">Sumate</Link>
                         </li>
                         <li className="mr-3">
-                            <a className="inline-block text-white no-underline hover:font-bold transition-all ease-in-out py-2 px-4" href="http://app.diabetia.com.ar" rel="noopener noreferrer">
+                            <Link
+                                className="inline-block text-white no-underline hover:font-bold transition-all ease-in-out py-2 px-4"
+                                href="#nuestraWeb">Nuestra Web</Link>
+                        </li>
+                        <li className="mr-3">
+                            <a className="inline-block text-white no-underline hover:font-bold transition-all ease-in-out py-2 px-4"
+                               href="http://app.diabetia.com.ar" rel="noopener noreferrer">
                                 Iniciar sesión
                             </a>
                         </li>

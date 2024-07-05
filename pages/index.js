@@ -8,8 +8,8 @@ import {ButtonOrange} from "../components/button";
 export default function Page() {
     return (
         <div className="bg-blue-primary">
-            <Navigation />
-            <Banner />
+            <Navigation/>
+            <Banner/>
 
             <section className="bg-white flex flex-col py-20" id="conocenos">
                 <h2 className="mb-12 text-2xl font-bold tracking-tight text-blue-secondary sm:text-3xl xl:text-4xl mx-auto">
@@ -37,7 +37,7 @@ export default function Page() {
 
             <section className="flex flex-col pt-20 bg-blue-primary container mx-auto" id="sumate">
                 <h2 className="mb-6 text-2xl font-bold tracking-tight text-white sm:text-3xl xl:text-4xl mx-auto">
-                Sumate
+                    Sumate
                 </h2>
                 <h5 className="mb-12  tracking-tight text-white sm:text-xl px-8 xl:text-lg mx-auto">
                     ¿Te interesa probar la aplicación? ¿Considerás que puede ser útil para tu día a día?
@@ -64,6 +64,29 @@ export default function Page() {
                     </div>
                 </div>
 
+            </section>
+
+            <section className="bg-white flex flex-col py-20" id="nuestraWeb">
+                <h2 className="mb-12 text-2xl font-bold tracking-tight text-blue-secondary sm:text-3xl xl:text-4xl mx-auto">
+                    Aprende a utilizar nuestra web
+                </h2>
+
+                <h5 className="mb-2 tracking-tight text-blue-primary sm:text-xl px-8 xl:text-lg mx-auto">
+                    En un breve video te mostramos lo fácil e intuitiva que es nuestra web.
+                </h5>
+
+                <div className="container mx-auto w-11/12 lg:w-1/2 pb-20">
+                    <div
+                        className="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-lg shadow-lg"
+                        style={{paddingTop: "56.25%"}}>
+                        <iframe className="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 h-full w-full"
+                                src="https://www.youtube.com/embed/HsSjp6apUXA?si=HVPeTYHK-XsVBa6W&rel=0"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin" allowFullScreen>
+                        </iframe>
+                    </div>
+                </div>
             </section>
 
 
