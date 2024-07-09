@@ -19,7 +19,7 @@ export const Banner = () => {
                             <p className="text-lg text-white mb-4">
                             Dejá atrás los cálculos mentales. Con una simple foto a tu comida podrás obtener la información nutricional necesaria para la correcta administración de insulina.
                              </p>
-                            <p className="text-lg">
+                            <p className="text-lg text-white">
                                 Unite a DiabetIA y aprovechá todas las funcionalidades que ofrecemos para mejorar tu
                                 bienestar.
                             </p>
