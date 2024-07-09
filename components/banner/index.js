@@ -4,8 +4,8 @@ export const Banner = () => {
             <div className="px-6 pt-12 text-center md:px-12 lg:text-left">
                 <div className="container mx-auto">
                     <div className="grid items-center gap-12 lg:grid-cols-2 px-6">
-                        <div className="mt-12 lg:mt-0 z-10 md:text-justify">
-                            <h1 className="mb-12 text-4xl font-bold tracking-tight text-white md:text-5xl xl:text-6xl">
+                        <div className="mt-12 lg:mt-0 z-10 text-justify">
+                            <h1 className="mb-12 text-4xl font-bold tracking-tight text-white md:text-5xl xl:text-6xl md:text-left">
                                 DiabetIA <br/><span className="text-orange-primary">Contá con nosotros</span>
                             </h1>
                             <p className="text-lg text-white mb-4">
