@@ -27,8 +27,8 @@ export default function Page() {
                         <iframe
                             className="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 h-full w-full"
                             src="https://www.youtube.com/embed/jKT9ClNgR0c?si=ULhUOwJOFcGtn1Jy?rel=0"
-
-                            allowFullScreen="" data-gtm-yt-inspected-2340190_699="true"
+                            rel={0}
+                            allowFullScreen="true" data-gtm-yt-inspected-2340190_699="true"
                             id="240632615"></iframe>
                     </div>
                 </div>
